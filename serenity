@@ -1,0 +1,9 @@
+webdriver.driver=chrome
+webdriver.chrome.driver=chromedriver.exe
+webdriver.base.url=http://automationpractice.com/
+serenity.project.name = Your Logo
+chrome.switches=--start-maximized
+feature.file.encoding =UTF8
+serenity.test.root=net.thucydides.showcase.cucumber.junit
+webdriver.timeouts.implicitlywait = 10000
+serenity.take.screenshots=AFTER_EACH_STEP
