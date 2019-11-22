@@ -6,4 +6,5 @@ import org.openqa.selenium.By;
 
 public class MainPageAutentication extends PageObject {
     public static final Target INPUT_EMAIL_CREATE = Target.the("Input that pay in email").located(By.id("email_create"));
+    public static final Target BUTTON_CREATEACCOUNT = Target.the("Button that redirects to page create account").located(By.id("SubmitCreate"));
 }

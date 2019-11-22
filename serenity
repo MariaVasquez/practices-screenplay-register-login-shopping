@@ -1,5 +1,5 @@
 webdriver.driver=chrome
-webdriver.chrome.driver=chromedriver.exe
+webdriver.chrome.driver=C:\Users\maria.vasquez\Desktop\PruebasAutomatizadas\practices-screenplay-register-login-shopping\chromedriver.exe
 webdriver.base.url=http://automationpractice.com/
 serenity.project.name = Your Logo
 chrome.switches=--start-maximized

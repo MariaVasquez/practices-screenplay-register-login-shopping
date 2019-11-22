@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-11-2019 11:49</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-11-2019 15:13</span>
     <br style="clear:left"/>
 </div>
 
@@ -146,9 +146,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="pending-color">Create user
+                                <span class="failing-color">Create user
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -165,29 +165,86 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Element should be enabled exception: Expected enabled element was not enabled">
+                            Element should be enabled exception: Expected enabled element was not enabled
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Expected enabled element was not enabled</pre>
+                                    </h5>
+                                    us.com.yourlogo.tasks.CreateUser.performAs(CreateUser.java
+                                    :12) <br>
+                                    us.com.yourlogo.stepsdefinitions.CreateUserStepDefinition.whenYouReachTheCreateAccountFormTheUserFillsInTheFieldsWithTheInformationAndClickInRegister(CreateUserStepDefinition.java
+                                    :40) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //label[text()='Mr.']/div/span/input to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        us.com.yourlogo.tasks.CreateUser.performAs(CreateUser.java :12) <br>
+                                        us.com.yourlogo.stepsdefinitions.CreateUserStepDefinition.whenYouReachTheCreateAccountFormTheUserFillsInTheFieldsWithTheInformationAndClickInRegister(CreateUserStepDefinition.java :40) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                    </pre>
+                                </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource97213285259574704.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="13ffdc8332fd11c82a59ad6e4b15956edd32f5f97445c97fed68c1ac495d7715.png" title="Given enter the website YourLogo" width="1034"/>
+                <img src="a2d8b226ab3e65c407cdb991706e1b70b3b02189089c19763c3ab1f4d0943f0d.png" title="Given enter the website YourLogo" width="1034"/>
                 <img src="a2d8b226ab3e65c407cdb991706e1b70b3b02189089c19763c3ab1f4d0943f0d.png" title="Maria opens the Main page your logo" width="1034"/>
                 <img src="84ca56b206f2ac58db9b4400b1de3cfc8f32354082d21bf227ae1edd079ee2e6.png" title="When click the Sign In button to redirect to the authentication page" width="1034"/>
-                <img src="89489a53496a9a2ffe5110309077591f9ee2643450063aa02fcf2f39828a0205.png" title="Maria clicks on Button that reroute for authenticate or create an account" width="1034"/>
                 <img src="84ca56b206f2ac58db9b4400b1de3cfc8f32354082d21bf227ae1edd079ee2e6.png" title="Maria clicks on Button that reroute for authenticate or create an account" width="1034"/>
-                <img src="84ca56b206f2ac58db9b4400b1de3cfc8f32354082d21bf227ae1edd079ee2e6.png" title="And in the modal of creating an account, enter the email and click the Create Account button
-| email | maria.vasquez1010@gmail.com |" width="1034"/>
-                <img src="84ca56b206f2ac58db9b4400b1de3cfc8f32354082d21bf227ae1edd079ee2e6.png" title="And when you reach the Create Account form, the user fills in the fields with the information and click in Register
-| Title | Mr. |
-| First Name | Maria |
-| Last Name | Vasquez |
-| Password | Prueba.123 |
-| Date of Birth | 20-09-1998 |
-| Company | SQA |
-| Address | car 36 # 64-84 |
-| City | Medell&iacute;n |
-| State | Alaska |
-| Postal Code | 55745 |
-| Country | United States |
-| Mobile phone | 3587541 |
-| Address Future | carr prueba 86 |: <span class='pending-color'>PENDING</span>" width="1034"/>
+                <img src="ec208326d190e730fecced6bb6173968cb6e4d7f5b5c5d390908d98e14354237.png" title="And in the modal of creating an account, enter the email and click the Create Account button" width="1034"/>
+                <img src="608499dcede4cbe759ce33ed420a76f7659b4c1649c49ebfd377717a55bf07c9.png" title="Maria enters 'maria.vasquez1010@outlook.com' into Input that pay in email" width="1034"/>
+                <img src="608499dcede4cbe759ce33ed420a76f7659b4c1649c49ebfd377717a55bf07c9.png" title="Maria clicks on Button that redirects to page create account" width="1034"/>
+                <img src="ec208326d190e730fecced6bb6173968cb6e4d7f5b5c5d390908d98e14354237.png" title="Maria clicks on Button that redirects to page create account" width="1034"/>
+                <img src="821103716c9f76cf5a7d81e6f0bad2747ec742c09d4de39598a15b44ea25cdee.png" title="And when you reach the Create Account form, the user fills in the fields with the information and click in Register" width="1034"/>
+                <img src="9c057cf87c0519c8abd9510f86e992cb654babee786c50b9335e8159c542c33c.png" title="Maria clicks on " width="1034"/>
+                <img src="77db8f93acb6dd1be5728ed8bc9bf45944614527727432ed217b30b619a85f1d.png" title="Maria clicks on : <span class='failing-color'>FAILURE</span>" width="1034"/>
             </div>
         </div>
 

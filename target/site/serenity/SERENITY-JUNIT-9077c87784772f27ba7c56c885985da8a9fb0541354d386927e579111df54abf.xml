@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Register user" skipped="0" tests="1" time="1.59" timestamp="2019-11-14 11:52:18"><testcase name="Create user"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
-us.com.yourlogo.tasks.OpenWebsite.performAs(OpenWebsite.java:20)&#13;
-us.com.yourlogo.stepsdefinitions.CreateUserStepDefinition.enterTheWebsiteYourLogo(CreateUserStepDefinition.java:27)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Register user" skipped="0" tests="1" time="25.47" timestamp="2019-11-22 03:13:50"><testcase name="Create user"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+us.com.yourlogo.tasks.CreateUser.performAs(CreateUser.java:12)&#13;
+us.com.yourlogo.stepsdefinitions.CreateUserStepDefinition.whenYouReachTheCreateAccountFormTheUserFillsInTheFieldsWithTheInformationAndClickInRegister(CreateUserStepDefinition.java:40)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>

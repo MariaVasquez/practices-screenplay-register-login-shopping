@@ -24,10 +24,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="ProjectId" id="1SfUoz3YZ17u7wwaYTbOYPRkoZZ" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git-2.24.0.2-64-bit.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -51,7 +56,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PopupValidationRunner">
+  <component name="RunManager" selected="Gradle.CreateUserRunner">
+    <configuration name="Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.Util" />
+      <module name="User&amp;Cart.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateUserRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -94,8 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PopupValidationRunner" />
         <item itemvalue="Gradle.CreateUserRunner" />
+        <item itemvalue="Application.Util" />
+        <item itemvalue="Gradle.PopupValidationRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -111,5 +130,18 @@
       <updated>1571954322512</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
